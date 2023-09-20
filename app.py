@@ -57,3 +57,4 @@ num1=st.slider("Enter the number of sentences do you want to speak",min_value=2,
 if st.button("Speak"):
     engine.say(wikipedia.summary(query, sentences=num1))
     engine.runAndWait()
+    #
